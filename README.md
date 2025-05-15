@@ -1,1 +1,1 @@
-# mewow-dict-lzcapp
+# 喵词典
