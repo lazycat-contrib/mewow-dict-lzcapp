@@ -1,0 +1,14 @@
+lzc-sdk-version: "0.1"
+name: 喵词典
+package: lazycat.czyt.app.meow-dict
+version: 0.1.3
+description: "基于 MDX 的 web 词典。"
+homepage: https://github.com/dockers-x/mewow-dict
+author: czyt
+application:
+  subdomain: meow-dict
+  background_task: true
+  public_path:
+    - /
+  routes:
+    - /=exec://8181,/lzcapp/pkg/content/setup.sh
